@@ -65,6 +65,33 @@
                 android:textSize="24sp" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="タイトル"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="本文"
+                android:textSize="24sp" />
+        </LinearLayout>
+
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
